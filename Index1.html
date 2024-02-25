@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Karbon Card Assignment</title>
+
+    <!-- Link to external JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.0/xlsx.full.min.js"></script>
+
+    <script src="mac_java - GPT.js"></script>
+</head>
+<body>
+    <h1>Download Company Data</h1>
+    <select name="company" id="company">
+        <option>ADPRO SOFTECH PVT LTD</option>
+        <option>ADRENALIN ESYSTEMS LIMITED </option>         
+        <option>ADV DETAILING AND DESIGN APPLICATIONS INDIA PRIVATE LIMITED</option>  
+        <option>ADVA OPTICAL NETWORKING INDIA PRIVATE LIMITED</option>  
+        <option>ADVAITA INDIA CONSULTING PRIVATE LIMITED</option>  
+        <option>ADVAIYA SOLUTIONS (P) LTD.</option>  
+        <option>ADVANCED BUSINESS & HEALTHCARE SOLUTIONS INDIA PRIVATE LIMITED </option>  
+        <option>ADVANCED INVESTMENT MECHANICS INDIA PRIVATE LIMITED</option>  
+        <option>ADVANTEST INDIA PRIVATE LIMITED</option>  
+        <option>ADVANTMED INDIA LLP </option>  
+        <option>ADVANZ PHARMA SERVICES (INDIA) PRIVATE LIMITED</option>  
+        <option>ADVARRA INDIA PRIVATE LIMITED</option>  
+        <option>ADVISOR360 SOFTWARE PRIVATE LIMITED</option>  
+        <option>AECO TECHNOSTRUCT PRIVATE LIMITED</option>  
+        <option>AECOM INDIA GLOBAL SERVICES PRIVATE LIMITED</option>  
+        <option>AECOR DIGITAL INTERNATIONAL PRIVATE LIMITED</option>   
+        <option>AEGIS CUSTOMER SUPPORT SERVICES PVT LTD</option>  
+        <option>AEL DATASERVICES LLP</option>  
+        <option>AEON COMMUNICATION PRIVATE LIMITED </option>  
+        <option>AEREN IP SERVICES PVT. LTD.</option>  
+        <option>AEREN IT SOLUTIONS PVT. LTD.</option>  
+        <option>AEREON INDIA PRIVATE LIMITED. </option>  
+        <option>AEROSPIKE INDIA PRIVATE LIMITED</option>  
+        <option>AEXONIC TECHNOLOGIES PRIVATE LIMITED</option>  
+        <option>AFFINITY ANSWERS PRIVATE LIMITED </option>  
+        <option>AFFINITY GLOBAL ADVERTISING PVT. LTD.</option>  
+        <option>AFOUR TECHNOLOGIES PVT. LTD.</option>  
+        <option>AGASTHA SOFTWARE PVT. LTD.</option>  
+        <option>AGATHSYA TECHNOLOGIES PRIVATE LIMITED</option>  
+        <option>AGCO TRADING (INDIA) PRIVATE LIMITED </option>  
+        <option>AGGRANDIZE VENTURE PRIVATE LIMITED</option>  
+        <option>AGILE ICO PVT LTD </option>  
+        <option>AGILE LINK TECHNOLOGIES</option>  
+        <option>AGILENT TECHNOLOGIES INTERNATIONAL PVT.LTD.</option>  
+        <option>AGILIANCE INDIA PVT LTD </option>  
+        <option>AGILITY E SERVICES PRIVATE LIMITED </option>  
+        <option>AGILON HEALTH INDIA PRIVATE LIMITED </option>  
+        <option>AGNEXT TECHNOLOGIES PRIVATE LTD</option>  
+        <option>AGNISYS TECHNOLOGY (P) LTD.</option>  
+        <option>AGNITIO SYSTEMS </option>  
+        <option>AGNITY COMMUNICATIONS PVT. LTD.</option>  
+        <option>AGNITY INDIA TECHNOLOGIES PVT LTD </option>  
+        <option>AGNITY TECHNOLOGIES PRIVATE LIMITED</option>  
+        <option>AGREETA SOLUTIONS PRIVATE LIMITED</option>  
+        <option>AGS HEALTH PVT. LTD</option>  
+        <option>AGT ELECTRONICS LTD</option>  
+        <option>AGTECHPRO PRIVATE LIMITED </option>  
+        <option>AHANA RAY TECHNOLOGIES INDIA PRIVATE LIMITED</option>  
+        <option>AI COGITO INDIA PRIVATE LIMITED</option>  
+        <option>AI SQUARE GLOBAL SOLUTIONS LLP</option>  
+        <option>AIDASTECH INDIA PRIVATE LIMITED</option>  
+        <option>AIE FIBER RESOURCE AND TRADING (INDIA) PRIVATE LIMITED </option>  
+        <option>AIGENEDGE PRIVATE LIMITED </option>  
+        <option>AIGILX HEALTH TECHNOLOGIES PVT LTD</option>  
+        <option>AIMBEYOND INFOTECH PRIVATE LIMITED</option>  
+        <option>AIML SQUARE PRIVATE LIMITED</option>  
+        <option>AIMTRONICS SEMICONDUCTOR INDIA PVT LTD</option>  
+        <option>AINS INDIA PVT LTD </option>  
+        <option>AINSURTECH PVT LTD</option>  
+        <option>AIOPSGROUP COMMERCE INDIA PRIVATE LIMITED</option>  
+        <option>AIRAMATRIX PRIVATE LIMITED </option>  
+        <option>AIRAVANA SYSTEMS PRIVATE LIMITED</option>  
+        <option>AIRBUS GROUP INDIA PVT. LTD.</option>  
+        <option>AIRCHECK INDIA PVT. LTD.</option>  
+        <option>AIRDATA TECHNOLOGIES PRIVATE LIMITED</option>  
+        <option>AIREI INDIA PRIVATE LTD</option>   
+        <option>AIRMEET NETWORKS PRIVATE LIMITED</option>  
+        <option>AIRO DIGITAL LABS INDIA PRIVATE LIMITED</option>  
+        <option>AIRO GLOBAL SOFTWARE PRIVATE LIMITED</option>  
+        <option>AIROHA TECHNOLOGY INDIA PRIVATE LIMITED</option>  
+        <option>AIRTEL INTERNATIONAL LLP</option>  
+        <option>AITHENT TECHNOLOGIES PVT. LTD.</option>  
+        <option>AJIRA AI SOFTWARE INDIA PVT LTD</option>  
+        <option>AJOSYS TECHNOLOGY SOLUTIONS PVT LTD</option>  
+        <option>AJRITH TECH PRIVATE LIMITED</option>  
+        <option>AJS SOFTWARE TECHNOLOGIES PRIVATE LIMITED</option>  
+        <option>AJUBA COMMERCE PVT. LTD. </option>  
+        <option>AK AEROTEK SOFTWARE CENTRE PVT. LTD.</option>  
+        <option>AK SURYA POWER MAGIC PVT LTD</option>  
+        <option>AKEO SOFTWARE SOLUTIONS PRIVATE LIMITED</option>  
+        <option>AKIKO SHERMAN INFOTECH PRIVATE LIMITED</option>  
+        <option>AKOTS INDIA PVT. LTD. </option>  
+        <option>AKRIDATA INDIA PRIVATE LIMITED </option>  
+        <option>AKSA LEGACIES PRIVATE LIMITED </option>  
+        <option>AKSHAY RAJENDRA SHANBHAG</option>  
+        <option>AKSHAY VANIJYA & FINANCE LTD </option>  
+        <option>ALAMY IMAGES INDIA (P) LTD</option>  
+        <option>ALAN SOLUTIONS</option>  
+        <option>ALATION INDIA PRIVATE LIMITED</option>
+        <option>ALCAX SOLUTIONS</option>
+        <option>ALCODEX TECHNOLOGIES PVT. LTD.</option>
+        <option>ALE INDIA PVT LTD</option>
+        <option>ALEKHA IT PRIVATE LIMITED</option>
+        <option>ALEPT CONSULTING PRIVATE LIMITED</option>
+        <option>ALERTOPS INDIA PRIVATE LIMITED</option>
+        <option>ALETHEA COMMUNICATIONS TECHNOLOGIES PVT LTD</option>
+        <option>ALFA KPO PVT. LTD.</option>
+        <option>ALFANAR ENGINEERING SERVICES INDIA PVT LTD</option>
+        <option>ALGONICS SYSTEMS PRIVATE LIMITED</option>
+        <option>ALGONOMY SOFTWARE PRIVATE LIMITED</option>
+        <option>ALGORHYTHM TECH PVT LTD</option>
+    </select>
+    <button type="button" onclick="myFunction()">Get Info</button>
+</body>
+</html>
